@@ -3,8 +3,8 @@ package ra;
 import java.util.Scanner;
 
 public class StudentManager {
-    protected static Student[] students = new Student[100];
-    protected static int count = 0;
+    protected static Student[] students = new Student[100]; // tối đa
+    protected static int count = 0; // số lượng phần tử khác null
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
